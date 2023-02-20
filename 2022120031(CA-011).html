@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>2022120031(CA-010)</title>
+
+<script type="text/javascript">
+function add()
+{
+number1=Number(document.getElementById("num1").value);
+number2=Number(document.getElementById("num2").value);
+result=number1+number2;
+document.getElementById("result").innerHTML = result;
+}
+
+function sub()
+{
+number1=Number(document.getElementById("num1").value);
+number2=Number(document.getElementById("num2").value);
+result=number1-number2;
+document.getElementById("result").innerHTML = result;
+}
+
+function mul()
+{
+number1=Number(document.getElementById("num1").value);
+number2=Number(document.getElementById("num2").value);
+result=number1*number2;
+document.getElementById("result").innerHTML = result;
+}
+
+function div()
+{
+number1=Number(document.getElementById("num1").value);
+number2=Number(document.getElementById("num2").value);
+result=number1/number2;
+document.getElementById("result").innerHTML = result;
+}
+</script>
+.
+</head>
+<body style="background-image: url('https://us.123rf.com/450wm/karandaev/karandaev1611/karandaev161100434/65841837-office-leather-desk-table-with-calculator-and-pen-top-view-with-copy-space.jpg?ver=6');
+background-repeat: no-repeat;background-size: cover">
+<h2 style="text-align: center;margin-top: 4%;color: white"><u>My Calculator</u></h2>
+<div style="margin-left: 35%;margin-right: 35%;margin-top: 2%;height:50%;border:solid;color: white">
+
+<form style="margin-left:10%;color: white"><lable><br>Enter 1st Number</lable>
+<input style="width:50%;height:07%;margin-top:1%;margin-left:15" id="num1" type="text" placeholder="Enter 1st number"></form>
+<form style="margin-left:10%;color: white"><lable>Enter 2nd Number</lable>
+<input style="width:50%;height:07%;margin-left:10" id="num2" placeholder="Enter 2nd number"type="text"></form>
+<div style="margin-left:10%;color: white"><lable>Result</lable>:<span id="result"></span></div>
+<button style="margin-left:35%" onclick="add()">+</button>
+<button style="margin-left:1%" onclick="sub()">-</button>
+<button style="margin-left:1%" onclick="mul()">*</button>
+<button style="margin-left:1%" onclick="div()">/</button>
+</div>
+</body>
+</html>
